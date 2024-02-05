@@ -1,0 +1,44 @@
+@media (max-width: 575.98px) { .logo{
+    width: 50px;
+    height: auto;
+} }
+.logo{
+    border-radius: 50%;
+}
+.text{
+    font-weight: 800;
+}
+p{
+    font-weight: 400;
+}
+button[type="button"]{
+    background-color: #7A9D59;
+    color: #233253;
+    font-weight: 600;
+    width: 100%;
+}
+.section{
+    background-color: black;
+    color: white;
+}
+
+@media (min-width: 575.98px) { 
+    .text{
+        margin-top: 50px;
+        font-size: 40px
+    }
+}
+
+@media (min-width: 767.98px) {
+    .text{
+        margin-top: 100px;
+        font-size: 60px
+    }
+ }
+
+@media (min-width: 991.98px) {
+    .text{
+        margin-top: 130px;
+        font-size: 60px
+    }
+ }
